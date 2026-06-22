@@ -385,8 +385,11 @@ function ghHeaders() {
 function ghGetFile(cb) {
   var url = ghBase + '/repos/' + cfg.owner + '/' + cfg.dataRepo + '/contents/' + DATA_REPO_FILE;
   fetch(url, { headers: ghHeaders() })
-    .then(function(r) { return r.json(); })
-    .then(function(data) { cb(null, data); })
+    .then(function(r) {
+      if (r.status === 404) { cb(null, null); return; } // file doesn't exist yet — not an error
+      if (!r.ok) { cb(new Error('HTTP ' + r.status), null); return; }
+      return r.json().then(function(data) { cb(null, data); });
+    })
     .catch(function(e) { cb(e, null); });
 }
 
@@ -409,10 +412,11 @@ function ghSaveLog(cb) {
 
 function ghLoadLog(cb) {
   ghGetFile(function(err, data) {
-    if (err || !data || !data.content) { cb(err, null); return; }
+    if (err) { cb(err, null); return; }
+    if (!data || !data.content) { cb(null, []); return; } // empty repo = empty log, not an error
     try {
       var json = JSON.parse(decodeURIComponent(escape(atob(data.content.replace(/\n/g, '')))));
-      cb(null, json);
+      cb(null, Array.isArray(json) ? json : []);
     } catch(e) { cb(e, null); }
   });
 }
@@ -1060,8 +1064,11 @@ function renderQueue() {
 function pullFromGitHub() {
   if (!isConfigured()) { alert('Set up GitHub in Settings first.'); return; }
   ghLoadLog(function(err, data) {
-    if (err || !data) { alert('Could not pull from GitHub. Check your credentials in Settings.'); return; }
-    // Merge: remote is source of truth, but keep any local entries not in remote
+    if (err) {
+      alert('GitHub error: ' + (err.message || err) + '\n\nCheck: correct username, repo name, and PAT has "repo" scope.');
+      return;
+    }
+    if (!data) { alert('No data returned from GitHub.'); return; }
     var remoteIds = new Set(data.map(function(e) { return e.id; }));
     var localOnly = workoutLog.filter(function(e) { return !remoteIds.has(e.id); });
     workoutLog = data.concat(localOnly).sort(function(a, b) { return b.id - a.id; });
@@ -1069,7 +1076,7 @@ function pullFromGitHub() {
     cfg.lastSync = today();
     saveCfg();
     renderWeek();
-    alert('Synced ' + workoutLog.length + ' sessions from GitHub.');
+    alert('Synced. ' + workoutLog.length + ' sessions total.' + (data.length === 0 ? '\n\n(No sessions in GitHub yet — this is expected on first use.)' : ''));
   });
 }
 
