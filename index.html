@@ -20,13 +20,10 @@ html,body{height:100%;overflow:hidden;background:var(--g7);font-family:-apple-sy
 .sc{display:none;position:fixed;top:52px;left:0;right:0;bottom:0;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:12px 12px calc(12px + var(--sb))}
 .sc.on{display:block}
 ::-webkit-scrollbar{display:none}
-.card{background:var(--wh);border-radius:var(--ra);margin-bottom:10px;box-shadow:0 1px 3px rgba(0,0,0,.08);overflow:hidden}
-.cp{padding:14px 16px}
 .week-title{font-size:20px;font-weight:700;padding:4px 0 2px}
 .week-sub{font-size:13px;color:var(--g3);margin-bottom:12px}
 .wdc{background:var(--wh);border-radius:var(--ra);margin-bottom:10px;box-shadow:0 1px 3px rgba(0,0,0,.08);overflow:hidden}
-.wdc.done-wk{opacity:.6}
-.wdc.active-wk{border:2px solid var(--bl)}
+.wdc.done-wk{opacity:.6}.wdc.active-wk{border:2px solid var(--bl)}
 .wdh{display:flex;align-items:center;justify-content:space-between;padding:14px 16px}
 .wdl{flex:1}
 .wdn{font-size:16px;font-weight:600}
@@ -38,8 +35,7 @@ html,body{height:100%;overflow:hidden;background:var(--g7);font-family:-apple-sy
 .wdsum{padding:0 16px 10px;font-size:13px;color:var(--g3)}
 .wdbtn{display:block;margin:0 16px 14px;padding:10px;border-radius:8px;border:none;font-size:14px;font-weight:600;cursor:pointer;background:var(--bl);color:var(--wh);width:calc(100% - 32px)}
 .dh{background:var(--wh);border-radius:var(--ra);padding:14px 16px;margin-bottom:10px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 1px 3px rgba(0,0,0,.08)}
-.dt{font-size:17px;font-weight:600}
-.ds{font-size:13px;color:var(--g3);margin-top:2px}
+.dt{font-size:17px;font-weight:600}.ds{font-size:13px;color:var(--g3);margin-top:2px}
 .db{font-size:12px;padding:4px 10px;border-radius:20px;font-weight:500;white-space:nowrap}
 .bs{background:var(--bll);color:var(--bl)}.bh{background:var(--grl);color:var(--gr)}.bm{background:var(--aml);color:var(--am)}.bk{background:var(--pul);color:var(--pu)}
 .nub{background:var(--g1);color:var(--wh);border-radius:var(--ra);padding:10px 14px;margin-bottom:10px;font-size:13px}
@@ -49,8 +45,7 @@ html,body{height:100%;overflow:hidden;background:var(--g7);font-family:-apple-sy
 .ech{display:flex;align-items:center;gap:12px;padding:14px 14px 0}
 .ei{width:48px;height:48px;border-radius:8px;background:var(--g6);flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:22px}
 .einfo{flex:1;min-width:0}
-.en{font-size:15px;font-weight:600;line-height:1.2}
-.em{font-size:13px;color:var(--g3);margin-top:3px}
+.en{font-size:15px;font-weight:600;line-height:1.2}.em{font-size:13px;color:var(--g3);margin-top:3px}
 .etags{display:flex;gap:5px;flex-wrap:wrap;margin-top:5px}
 .etag{font-size:11px;padding:2px 7px;border-radius:20px;background:var(--g6);color:var(--g3)}
 .newtag{background:var(--pul);color:var(--pu)}
@@ -83,19 +78,16 @@ html,body{height:100%;overflow:hidden;background:var(--g7);font-family:-apple-sy
 .resttimer{font-size:20px;font-weight:700;color:var(--bl);font-variant-numeric:tabular-nums}
 .restskip{font-size:13px;color:var(--bl);background:none;border:none;cursor:pointer}
 .cbanner{background:var(--gr);color:var(--wh);border-radius:var(--ra);padding:18px;text-align:center;margin-bottom:10px}
-.cbanner h2{font-size:22px;font-weight:700}
-.cbanner p{font-size:14px;opacity:.9;margin-top:4px}
+.cbanner h2{font-size:22px;font-weight:700}.cbanner p{font-size:14px;opacity:.9;margin-top:4px}
 .hcard{background:var(--wh);border-radius:var(--ra);margin-bottom:10px;box-shadow:0 1px 3px rgba(0,0,0,.06);overflow:hidden}
 .hcard-head{padding:12px 14px;display:flex;align-items:flex-start;justify-content:space-between}
-.hcard-date{font-size:15px;font-weight:600}
-.hcard-day{font-size:13px;color:var(--g3);margin-top:2px}
+.hcard-date{font-size:15px;font-weight:600}.hcard-day{font-size:13px;color:var(--g3);margin-top:2px}
 .hcard-meta{display:flex;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--g4);margin-top:6px}
 .hcard-rpe{background:var(--bll);color:var(--bl);font-size:11px;padding:2px 7px;border-radius:20px;font-weight:600}
 .hcard-body{border-top:1px solid var(--g6)}
 .hex-row{padding:8px 14px;border-bottom:1px solid var(--g6);font-size:13px}
 .hex-row:last-child{border-bottom:none}
-.hex-name{font-weight:500}
-.hex-sets{color:var(--g3);margin-top:2px;font-size:12px}
+.hex-name{font-weight:500}.hex-sets{color:var(--g3);margin-top:2px;font-size:12px}
 .htog{background:none;border:none;color:var(--bl);font-size:13px;cursor:pointer;padding:0;flex-shrink:0}
 .setup-wrap{max-width:420px;margin:20px auto}
 .setup-title{font-size:22px;font-weight:700;margin-bottom:6px}
@@ -115,15 +107,12 @@ html,body{height:100%;overflow:hidden;background:var(--g7);font-family:-apple-sy
 .sti{background:var(--wh);border-radius:var(--ra);padding:12px;box-shadow:0 1px 3px rgba(0,0,0,.06);text-align:center}
 .stlb{font-size:11px;color:var(--g3);margin-bottom:4px}
 .stvl{font-size:22px;font-weight:700;color:var(--g1)}
-.btog{display:flex;background:var(--g6);border-radius:10px;padding:3px;margin-bottom:12px;gap:2px}
-.blkb{flex:1;padding:7px;border:none;border-radius:8px;background:transparent;font-size:13px;font-weight:500;color:var(--g3);cursor:pointer}
-.blkb.on{background:var(--wh);color:var(--g1);box-shadow:0 1px 3px rgba(0,0,0,.12)}
 .qcard{background:var(--wh);border-radius:var(--ra);padding:14px 16px;margin-bottom:8px;display:flex;align-items:center;gap:12px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
 .qnum{width:28px;height:28px;border-radius:50%;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-.qinfo{flex:1}
-.qname{font-size:15px;font-weight:600}
-.qsub{font-size:13px;color:var(--g3);margin-top:2px}
+.qinfo{flex:1}.qname{font-size:15px;font-weight:600}.qsub{font-size:13px;color:var(--g3);margin-top:2px}
 .testout{font-size:11px;color:var(--g3);margin-top:8px;white-space:pre-wrap;word-break:break-all;background:var(--g6);border-radius:6px;padding:8px;display:none}
+.slot-label{font-size:10px;color:var(--g4);text-transform:uppercase;letter-spacing:.5px;padding:0 14px 4px;margin-top:8px}
+.loading-bar{background:var(--bll);border-radius:var(--ra);padding:20px;text-align:center;color:var(--bl);font-size:14px;margin-bottom:10px}
 </style>
 </head>
 <body>
@@ -150,69 +139,93 @@ html,body{height:100%;overflow:hidden;background:var(--g7);font-family:-apple-sy
 <div id="sc-history" class="sc"></div>
 <div id="sc-queue" class="sc"></div>
 <script>
-var LSKEYS={cfg:'wk_cfg',log:'wk_log',week:'wk_week'};
+// ─── STORAGE KEYS ────────────────────────────────────────────────
+var SK={cfg:'wk_cfg4',log:'wk_log4',week:'wk_week4',ex:'wk_ex4',wo:'wk_wo4'};
 var DATA_FILE='workout-log.json';
-var cfg=lsGet(LSKEYS.cfg,{});
-var workoutLog=lsGet(LSKEYS.log,[]);
-var weekPlan=lsGet(LSKEYS.week,null);
+var EX_FILE='exercises.json';
+var WO_FILE='workouts.json';
+
+// ─── STATE ───────────────────────────────────────────────────────
+var cfg=lsGet(SK.cfg,{});
+var workoutLog=lsGet(SK.log,[]);
+var weekPlan=lsGet(SK.week,null);
+var exercisePool=lsGet(SK.ex,null);  // from exercises.json
+var workoutDefs=lsGet(SK.wo,null);   // from workouts.json
 var activeSession=null;
 
-function lsGet(k,def){try{var v=localStorage.getItem(k);return v?JSON.parse(v):def;}catch(e){return def;}}
+function lsGet(k,d){try{var v=localStorage.getItem(k);return v?JSON.parse(v):d;}catch(e){return d;}}
 function lsSet(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
-function saveCfg(){lsSet(LSKEYS.cfg,cfg);}
-function saveLog(){lsSet(LSKEYS.log,workoutLog);}
-function saveWeek(){lsSet(LSKEYS.week,weekPlan);}
+function saveCfg(){lsSet(SK.cfg,cfg);}
+function saveLog(){lsSet(SK.log,workoutLog);}
+function saveWeek(){lsSet(SK.week,weekPlan);}
+function saveExPool(){lsSet(SK.ex,exercisePool);}
+function saveWoDefs(){lsSet(SK.wo,workoutDefs);}
 
-// ── DATE UTILS ──
+// ─── DATE UTILS ──────────────────────────────────────────────────
 function today(){return new Date().toISOString().split('T')[0];}
-function getWeekKey(){
-  var d=new Date(),day=d.getDay(),mon=new Date(d);
-  mon.setDate(d.getDate()-(day===0?6:day-1));
-  return mon.toISOString().split('T')[0];
-}
+function getWeekKey(){var d=new Date(),day=d.getDay(),m=new Date(d);m.setDate(d.getDate()-(day===0?6:day-1));return m.toISOString().split('T')[0];}
 function addDays(iso,n){var d=new Date(iso+'T12:00:00');d.setDate(d.getDate()+n);return d.toISOString().split('T')[0];}
 function fmtDate(iso){var d=new Date(iso+'T12:00:00');return d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});}
 function isNewWeek(){return !weekPlan||weekPlan.weekKey!==getWeekKey();}
-function getNextDayIdx(){return workoutLog.length?(workoutLog[0].dayIdx+1)%3:0;}
+function getNextWoIdx(){return workoutLog.length?(workoutLog[0].woIdx+1)%getWorkouts().length:0;}
 function fmtTime(s){return Math.floor(s/60)+':'+String(s%60).padStart(2,'0');}
 
-// ── PROGRAM DATA ──
-var DAYS=[
-  {id:'d1',name:'Day 1 — Heavy Strength',short:'Heavy Strength',badge:'Strength',bc:'bs',exercises:[
-    {id:'mp1',name:'Movement Prep',sets:1,reps:'10 min',load:'—',pattern:'mobility',emoji:'🔄',muscles:'Hip flexors, T-spine, Shoulders',desc:'Hip flexor stretch 60s each side, thoracic spine rotations on foam roller, shoulder CARs — full slow circles. Non-negotiable given shoulder history.'},
-    {id:'tbd',name:'Trap Bar Deadlift',sets:4,reps:'4–5',load:'~240 lbs, +10/wk',pattern:'hip hinge',emoji:'🏋️',muscles:'Glutes, Hamstrings, Quads / Erectors, Traps',desc:'Stand center of trap bar. Hinge at hips, neutral spine, chest up. Drive through the floor. Lock out hips at top. Preferred over conventional — better for 6\'3" frame, protects left foot.',tip:'Week 1: 240 · Week 2: 250 · Week 3: 260 · Week 4: 270'},
-    {id:'gsq',name:'Goblet Squat',sets:3,reps:'6–8',load:'Moderate KB',pattern:'squat',emoji:'🔔',muscles:'Quads, Glutes / Core, Upper back',desc:'KB at chest, elbows inside knees. Sit back and down. Drive knees out. Monitors ACL tracking.'},
-    {id:'csr',name:'Chest-Supported DB Row',sets:3,reps:'8–10',load:'Moderate DB',pattern:'horizontal pull',emoji:'🏋️',muscles:'Mid traps, Rhomboids, Lats / Rear delts, Biceps',desc:'Incline bench ~45°. Chest on pad. Row both DBs to hips, lead with elbows. Pause 1s at top. Safe for both shoulder repairs.'},
-    {id:'slr',name:'Single-Leg RDL',sets:3,reps:'8 each side',load:'Light DB or bodyweight',pattern:'unilateral',emoji:'🦵',muscles:'Hamstrings, Glutes / Balance, Hip stabilizers',desc:'Stand on one leg. Hinge forward flat back, free leg extends behind. Addresses left/right DEXA asymmetry.'},
-    {id:'row1',name:'Rowing Ergometer',sets:1,reps:'10 min',load:'Easy pace',pattern:'conditioning',emoji:'🚣',muscles:'Lats, Rhomboids, Hamstrings / Quads, Core',desc:'Legs to hips to arms. 22–24 strokes/min, easy effort. Zero foot impact.'}
-  ]},
-  {id:'d2',name:'Day 2 — Hypertrophy',short:'Hypertrophy',badge:'Hypertrophy',bc:'bh',exercises:[
-    {id:'mp2',name:'Movement Prep',sets:1,reps:'10 min',load:'—',pattern:'mobility',emoji:'🔄',muscles:'Hip flexors, T-spine, Shoulders',desc:'Hip flexor stretch, thoracic rotations, shoulder CARs. Always do this before loading.'},
-    {id:'lmp',name:'Landmine Press',sets:3,reps:'10–12 each',load:'Moderate plate',pattern:'horizontal push',emoji:'💪',muscles:'Anterior delt, Upper chest / Triceps, Serratus',desc:'Anchor barbell in corner. Press from shoulder height at ~45°. Neutral grip arc — key shoulder-safe pressing variation.'},
-    {id:'bss',name:'Bulgarian Split Squat',sets:3,reps:'10 each side',load:'Bodyweight to DB',pattern:'unilateral',emoji:'🦵',muscles:'Quads, Glutes / Hamstrings, Hip flexors',desc:'Rear foot on bench, front foot 2–3 feet forward. Lower until front thigh parallel. Addresses DEXA asymmetry. ACL-safe.'},
-    {id:'epu',name:'Eccentric Pull-Up / Cable Pulldown',sets:3,reps:'5–6 eccentric OR 10–12 pulldown',load:'Bodyweight / Moderate stack',pattern:'vertical pull',emoji:'🏋️',muscles:'Lats, Teres major / Biceps, Rear delts',desc:'ECCENTRIC: Box, neutral grip, jump to top, lower 4–6 seconds to dead hang. 20–30% stronger eccentrically. PULLDOWN: Neutral grip V-bar, pull to upper chest. Alternate across sessions.',tip:'Goal: bodyweight pull-up. Grip strength = top longevity predictor (Lancet 2015).',isNew:true},
-    {id:'idp',name:'Incline DB Press',sets:3,reps:'10–12',load:'Moderate DB',pattern:'horizontal push',emoji:'💪',muscles:'Upper chest, Anterior delt / Triceps',desc:'Bench 30–45°. Elbows at ~45° from torso. Full range. Stop if impingement — reduce range.'},
-    {id:'fpl',name:'Face Pull / Band Pull-Apart Superset',sets:3,reps:'15–20 each',load:'Light cable / band',pattern:'rotator cuff',emoji:'🎯',muscles:'Rear delts, External rotators / Mid traps, Rhomboids',desc:'Face pull: cable at face height, rope, pull to forehead with external rotation. Immediately: band pull-apart. Never skip.'},
-    {id:'hpp',name:'Half-Kneeling Pallof Press',sets:3,reps:'8–10 each side',load:'Light cable',pattern:'anti-rotation core',emoji:'🎯',muscles:'Obliques, Deep core / Glutes, Hip stabilizers',desc:'Half-kneeling perpendicular to cable. Press straight out, hold 2s — resist rotation. Critical for spine health.',tip:'From Evernote archive. Improves transfer to deadlift and carry.',isNew:true},
-    {id:'fmc',name:'Farmer Carry',sets:3,reps:'35 meters',load:'~50 lbs/hand',pattern:'loaded carry',emoji:'💼',muscles:'Grip, Traps, Core / Glutes, Quads',desc:'Two KBs, stand tall, walk controlled line. Conservative load given left foot history.'},
-    {id:'row2',name:'Rowing Ergometer',sets:1,reps:'10 min',load:'Moderate pace',pattern:'conditioning',emoji:'🚣',muscles:'Full body — posterior chain dominant',desc:'24–26 strokes/min. Should hold a broken conversation.'}
-  ]},
-  {id:'d3',name:'Day 3 — Power/Metabolic',short:'Power & Metabolic',badge:'Metabolic',bc:'bm',exercises:[
-    {id:'mp3',name:'Movement Prep',sets:1,reps:'5 min',load:'—',pattern:'mobility',emoji:'🔄',muscles:'Hip flexors, Glutes, Shoulders',desc:'Hip circles, leg swings, arm circles. Shorter prep for the metabolic session.'},
-    {id:'kbs',name:'KB Swing',sets:5,reps:'10',load:'35–53 lbs KB',pattern:'hip hinge power',emoji:'🏋️',muscles:'Glutes, Hamstrings / Core, Lats',desc:'Hip hinge — not a squat. Drive hips forward explosively. Stand on both feet — protects left foot.'},
-    {id:'sld',name:'Sled Push',sets:4,reps:'20 meters',load:'Moderate — start light',pattern:'metabolic',emoji:'🛷',muscles:'Quads, Glutes, Calves / Core, Shoulders',desc:'Lean ~45°, short powerful steps. No eccentric load — best recovery cost-benefit. Top tool for VAT reduction.'},
-    {id:'stu',name:'Step-Up',sets:3,reps:'10 each side',load:'Bodyweight to DB',pattern:'unilateral',emoji:'🪜',muscles:'Glutes, Quads / Hamstrings, Balance',desc:'Box ~16". Drive through heel. Don\'t push off back foot. ACL and foot-friendly.'},
-    {id:'trx',name:'TRX Row',sets:3,reps:'12',load:'Body angle',pattern:'horizontal pull',emoji:'🏋️',muscles:'Mid traps, Rhomboids, Rear delts / Biceps',desc:'Lean back, straight body. Pull chest to hands — elbows back. More horizontal = harder.'},
-    {id:'rwi',name:'Rowing Ergometer Intervals',sets:3,reps:'4 min on / 2 off',load:'Zone 2',pattern:'conditioning',emoji:'🚣',muscles:'Full body',desc:'Zone 2: can talk but would rather not. ~65–75% max HR. Primary VAT burner.'}
-  ]}
-];
+// ─── PROGRAM ACCESS ──────────────────────────────────────────────
+function getWorkouts(){
+  if(workoutDefs&&workoutDefs.workouts)return workoutDefs.workouts;
+  return FALLBACK_WORKOUTS;
+}
+function getExercisesByPattern(pattern){
+  if(exercisePool&&exercisePool.exercises){
+    return exercisePool.exercises.filter(function(e){return e.pattern===pattern;});
+  }
+  return FALLBACK_EXERCISES.filter(function(e){return e.pattern===pattern;});
+}
 
-// ── GITHUB API ──
+// ─── ROTATION ENGINE ─────────────────────────────────────────────
+// For each pattern slot in a workout, count how many times that pattern
+// has been used in past sessions of this same workout, then pick the
+// next exercise in the pool (round-robin).
+function resolveExercises(woIdx){
+  var workouts=getWorkouts();
+  var workout=workouts[woIdx];
+  if(!workout)return[];
+
+  // Count per-pattern usage in past sessions of this workout
+  var patternCounts={};
+  workoutLog.forEach(function(sess){
+    if(sess.woIdx!==woIdx)return;
+    (sess.exercises||[]).forEach(function(ex){
+      if(ex.pattern){
+        patternCounts[ex.pattern]=(patternCounts[ex.pattern]||0)+1;
+      }
+    });
+  });
+
+  // Track how many times we've picked from each pattern THIS session
+  // (handles duplicate pattern slots in same workout, e.g. two horizontal-push slots)
+  var slotCounts={};
+
+  return workout.slots.map(function(slot){
+    var pool=getExercisesByPattern(slot.pattern);
+    if(!pool.length)return{name:slot.label,pattern:slot.pattern,sets:3,reps:'—',load:'—',emoji:'💪',muscles:'',desc:'No exercises found for pattern: '+slot.pattern};
+
+    var baseCount=patternCounts[slot.pattern]||0;
+    var slotOffset=slotCounts[slot.pattern]||0;
+    var idx=(baseCount+slotOffset)%pool.length;
+    slotCounts[slot.pattern]=(slotOffset+1);
+
+    var ex=pool[idx];
+    return Object.assign({},ex,{slotLabel:slot.label});
+  });
+}
+
+// ─── GITHUB API ──────────────────────────────────────────────────
 var GH='https://api.github.com';
 function ghH(){return{'Authorization':'token '+cfg.pat,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'};}
 
-function ghGetFile(cb){
-  fetch(GH+'/repos/'+cfg.owner+'/'+cfg.dataRepo+'/contents/'+DATA_FILE,{headers:ghH()})
+function ghGet(filename,cb){
+  fetch(GH+'/repos/'+cfg.owner+'/'+cfg.dataRepo+'/contents/'+filename,{headers:ghH()})
   .then(function(r){
     if(r.status===404){cb(null,null);return;}
     if(!r.ok){r.text().then(function(t){cb(new Error('HTTP '+r.status+': '+t.substring(0,100)),null);});return;}
@@ -221,30 +234,49 @@ function ghGetFile(cb){
   .catch(function(e){cb(e,null);});
 }
 
-function ghLoadLog(cb){
-  ghGetFile(function(err,data){
-    if(err){cb(err,null);return;}
-    if(!data||!data.content){cb(null,[]);return;}
-    try{
-      var j=JSON.parse(decodeURIComponent(escape(atob(data.content.replace(/\n/g,'')))));
-      cb(null,Array.isArray(j)?j:[]);
-    }catch(e){cb(e,null);}
-  });
+function ghDecodeJSON(data){
+  if(!data||!data.content)return null;
+  try{return JSON.parse(decodeURIComponent(escape(atob(data.content.replace(/\n/g,'')))));}
+  catch(e){return null;}
 }
 
-function ghSaveLog(cb){
-  var content=btoa(unescape(encodeURIComponent(JSON.stringify(workoutLog,null,2))));
-  ghGetFile(function(err,existing){
-    var body={message:'Workout log '+today(),content:content};
+function ghPut(filename,obj,cb){
+  var content=btoa(unescape(encodeURIComponent(JSON.stringify(obj,null,2))));
+  ghGet(filename,function(err,existing){
+    var body={message:'Update '+filename+' '+today(),content:content};
     if(existing&&existing.sha)body.sha=existing.sha;
-    fetch(GH+'/repos/'+cfg.owner+'/'+cfg.dataRepo+'/contents/'+DATA_FILE,
+    fetch(GH+'/repos/'+cfg.owner+'/'+cfg.dataRepo+'/contents/'+filename,
       {method:'PUT',headers:ghH(),body:JSON.stringify(body)})
-    .then(function(r){r.json().then(function(d){if(cb)cb(r.ok?null:new Error('Save failed: '+r.status),d);});})
+    .then(function(r){r.json().then(function(d){if(cb)cb(r.ok?null:new Error('Save failed '+r.status),d);});})
     .catch(function(e){if(cb)cb(e,null);});
   });
 }
 
-// ── EVENT DELEGATION ──
+function loadProgramFromGitHub(cb){
+  var done=0,errors=[];
+  function finish(){done++;if(done===3)cb(errors.length?errors[0]:null);}
+  // Load exercises
+  ghGet(EX_FILE,function(err,data){
+    if(!err&&data){var j=ghDecodeJSON(data);if(j&&j.exercises){exercisePool=j;saveExPool();}}
+    finish();
+  });
+  // Load workouts
+  ghGet(WO_FILE,function(err,data){
+    if(!err&&data){var j=ghDecodeJSON(data);if(j&&j.workouts){workoutDefs=j;saveWoDefs();}}
+    finish();
+  });
+  // Load log
+  ghGet(DATA_FILE,function(err,data){
+    if(!err){
+      var j=ghDecodeJSON(data);
+      if(j&&Array.isArray(j)){workoutLog=j;saveLog();}
+      else if(!data)workoutLog=[];
+    }
+    finish();
+  });
+}
+
+// ─── EVENT DELEGATION ────────────────────────────────────────────
 document.body.addEventListener('click',function(e){
   var t=e.target;
   while(t&&t!==document.body){
@@ -260,13 +292,11 @@ document.body.addEventListener('change',function(e){
   if(inp==='load'&&activeSession.sets[i])activeSession.sets[i][s].load=t.value;
   if(inp==='reps'&&activeSession.sets[i])activeSession.sets[i][s].reps=t.value;
 });
-
 document.querySelectorAll('.nt[data-tab]').forEach(function(b){b.setAttribute('data-a','tab');});
 
 function dispatch(a,el){
   var v=el.getAttribute('data-v'),i=el.getAttribute('data-i');
   if(a==='tab'){switchTab(el.getAttribute('data-tab')||v);return;}
-  if(a==='blk'){cfg.block=parseInt(v);saveCfg();renderQueue();return;}
   if(a==='setup-save'){doSetup();return;}
   if(a==='gh-test'){runGhTest();return;}
   if(a==='start-day'){startWorkout(parseInt(v));return;}
@@ -282,7 +312,7 @@ function dispatch(a,el){
   if(a==='settings'){switchTab('settings');return;}
 }
 
-// ── TAB SWITCHING ──
+// ─── TAB SWITCHING ───────────────────────────────────────────────
 function switchTab(name){
   document.querySelectorAll('.sc').forEach(function(s){s.classList.remove('on');});
   document.querySelectorAll('.nt').forEach(function(t){t.classList.remove('on');});
@@ -293,47 +323,45 @@ function switchTab(name){
     return;
   }
   var sc=document.getElementById('sc-'+name),tab=document.getElementById('tab-'+name);
-  if(sc)sc.classList.add('on');
-  if(tab)tab.classList.add('on');
+  if(sc)sc.classList.add('on');if(tab)tab.classList.add('on');
   if(name==='week')renderWeek();
   if(name==='workout')renderWorkout();
   if(name==='history')renderHistory();
   if(name==='queue')renderQueue();
 }
 
-// ── WEEK PLAN ──
+// ─── WEEK PLAN ───────────────────────────────────────────────────
 function buildWeekPlan(){
-  var wk=getWeekKey();
-  var tue=addDays(wk,1),thu=addDays(wk,3),sun=addDays(wk,6);
-  var ni=getNextDayIdx();
+  var wk=getWeekKey(),tue=addDays(wk,1),thu=addDays(wk,3),sun=addDays(wk,6);
+  var ni=getNextWoIdx(),wos=getWorkouts();
   weekPlan={weekKey:wk,days:[
-    {dayIdx:ni,date:tue,status:'upcoming',sessionId:null},
-    {dayIdx:(ni+1)%3,date:thu,status:'upcoming',sessionId:null},
-    {dayIdx:(ni+2)%3,date:sun,status:'upcoming',sessionId:null}
+    {woIdx:ni%wos.length,date:tue,status:'upcoming',sessionId:null},
+    {woIdx:(ni+1)%wos.length,date:thu,status:'upcoming',sessionId:null},
+    {woIdx:(ni+2)%wos.length,date:sun,status:'upcoming',sessionId:null}
   ]};
   saveWeek();
 }
 function checkWeekReset(){if(isNewWeek())buildWeekPlan();}
 
-// ── SETUP ──
+// ─── SETUP ───────────────────────────────────────────────────────
 function isConfigured(){return !!(cfg.pat&&cfg.owner&&cfg.dataRepo);}
 
 function renderSetup(isEdit){
   var sc=document.getElementById('sc-queue');sc.innerHTML='';
   var w=mk('div','setup-wrap');
   w.appendChild(mkT('div','setup-title',isEdit?'Settings':'Setup'));
-  w.appendChild(mkT('div','setup-sub',isEdit?'Update your GitHub credentials.':'Connect GitHub to save workouts permanently. Takes 2 minutes.'));
+  w.appendChild(mkT('div','setup-sub',isEdit?'Update credentials or re-sync program files.':'Connect GitHub to save workouts and load your exercise program.'));
   if(!isEdit){
     ['<strong>1.</strong> github.com → Settings → Developer settings → Personal access tokens → Tokens (classic)',
      '<strong>2.</strong> Generate new token → check <strong>repo</strong> scope → copy it',
-     '<strong>3.</strong> Create a <strong>private</strong> repo called <strong>workout-data</strong>',
+     '<strong>3.</strong> Create a <strong>private</strong> repo — add <strong>exercises.json</strong>, <strong>workouts.json</strong>, and optionally <strong>workout-log.json</strong>',
      '<strong>4.</strong> Paste your details below'
     ].forEach(function(s){var d=mk('div','sstep');d.innerHTML=s;w.appendChild(d);});
   }
-  var fields=[{id:'gh-owner',lbl:'GitHub username',ph:'davidmohara',val:cfg.owner||'',type:'text'},
-              {id:'gh-repo',lbl:'Private data repo name',ph:'workout-data',val:cfg.dataRepo||'workout-data',type:'text'},
-              {id:'gh-pat',lbl:'Personal Access Token',ph:'ghp_xxxxxxxxxxxx',val:cfg.pat||'',type:'password'}];
-  fields.forEach(function(f){
+  [{id:'gh-owner',lbl:'GitHub username',ph:'davidmohara',val:cfg.owner||'',type:'text'},
+   {id:'gh-repo',lbl:'Private data repo name',ph:'workout-data',val:cfg.dataRepo||'workout-data',type:'text'},
+   {id:'gh-pat',lbl:'Personal Access Token',ph:'ghp_xxxxxxxxxxxx',val:cfg.pat||'',type:'password'}
+  ].forEach(function(f){
     var l=mkT('label','flbl',f.lbl);l.htmlFor=f.id;w.appendChild(l);
     var inp=document.createElement('input');
     inp.className='fin';inp.id=f.id;inp.type=f.type;inp.placeholder=f.ph;inp.value=f.val;
@@ -341,7 +369,7 @@ function renderSetup(isEdit){
     w.appendChild(inp);
   });
   w.appendChild(mkT('div','fhint','Token stored only on this device. Never sent anywhere except GitHub\'s API.'));
-  var btn=mk('button','bigbtn');btn.textContent=isEdit?'Save settings':'Connect';btn.setAttribute('data-a','setup-save');w.appendChild(btn);
+  var btn=mk('button','bigbtn');btn.textContent=isEdit?'Save settings':'Connect & load program';btn.setAttribute('data-a','setup-save');w.appendChild(btn);
   if(isEdit){
     var tb=mk('button','bigbtn sec');tb.textContent='Test GitHub connection';tb.setAttribute('data-a','gh-test');tb.style.marginTop='8px';w.appendChild(tb);
     var to=mk('div','testout');to.id='gh-test-out';w.appendChild(to);
@@ -355,10 +383,9 @@ function doSetup(){
   var repo=(document.getElementById('gh-repo').value||'').trim();
   var pat=(document.getElementById('gh-pat').value||'').trim();
   if(!owner||!repo||!pat){alert('Please fill in all fields.');return;}
-  cfg.owner=owner;cfg.dataRepo=repo;cfg.pat=pat;cfg.block=cfg.block||1;saveCfg();
-  var btn=document.querySelector('[data-a="setup-save"]');if(btn)btn.textContent='Connecting...';
-  ghLoadLog(function(err,data){
-    if(!err&&data&&Array.isArray(data)){workoutLog=data;saveLog();}
+  cfg.owner=owner;cfg.dataRepo=repo;cfg.pat=pat;saveCfg();
+  var btn=document.querySelector('[data-a="setup-save"]');if(btn)btn.textContent='Loading program...';
+  loadProgramFromGitHub(function(err){
     checkWeekReset();switchTab('week');
   });
 }
@@ -366,40 +393,39 @@ function doSetup(){
 function runGhTest(){
   var out=document.getElementById('gh-test-out');if(!out)return;
   out.style.display='block';out.textContent='Testing...';
-  if(!isConfigured()){out.textContent='No credentials saved yet.';return;}
-  fetch('https://api.github.com/repos/'+cfg.owner+'/'+cfg.dataRepo+'/contents/'+DATA_FILE,{headers:ghH()})
-  .then(function(r){return r.text().then(function(t){return{status:r.status,body:t.substring(0,300)};});})
-  .then(function(res){
-    if(res.status===200)out.textContent='✓ File found. Status: '+res.status;
-    else if(res.status===404)out.textContent='✓ Auth works. File not yet created (first use is fine).\nStatus: 404';
-    else out.textContent='Status: '+res.status+'\n'+res.body;
-  })
-  .catch(function(e){out.textContent='Network error: '+e.message;});
+  if(!isConfigured()){out.textContent='No credentials saved.';return;}
+  var results=[];var done=0;
+  function finish(){done++;if(done===3)out.textContent=results.join('\n');}
+  [DATA_FILE,EX_FILE,WO_FILE].forEach(function(f){
+    fetch(GH+'/repos/'+cfg.owner+'/'+cfg.dataRepo+'/contents/'+f,{headers:ghH()})
+    .then(function(r){results.push((r.ok||r.status===404?'✓':'✗')+' '+f+': HTTP '+r.status);finish();})
+    .catch(function(e){results.push('✗ '+f+': '+e.message);finish();});
+  });
 }
 
-// ── WEEK SCREEN ──
+// ─── WEEK SCREEN ─────────────────────────────────────────────────
 function renderWeek(){
   checkWeekReset();
   var sc=document.getElementById('sc-week');sc.innerHTML='';
   sc.appendChild(mkT('div','week-title','This Week'));
   sc.appendChild(mkT('div','week-sub','Week of '+fmtDate(weekPlan.weekKey)));
   var done=weekPlan.days.filter(function(d){return d.status==='done';}).length;
+  var wos=getWorkouts();
   var sg=mk('div','sgr');
-  [{l:'Done',v:done+'/'+weekPlan.days.length},{l:'Sessions',v:workoutLog.length},{l:'Block',v:cfg.block||1}]
+  [{l:'Done',v:done+'/'+weekPlan.days.length},{l:'Sessions',v:workoutLog.length},{l:'Workouts',v:wos.length}]
   .forEach(function(x){var t=mk('div','sti');t.appendChild(mkT('div','stlb',x.l));t.appendChild(mkT('div','stvl',''+x.v));sg.appendChild(t);});
   sc.appendChild(sg);
   weekPlan.days.forEach(function(wp,idx){
-    var day=DAYS[wp.dayIdx];
+    var wo=wos[wp.woIdx]||{name:'Workout',short:'Workout',badge:'',badgeClass:'',slots:[]};
     var isToday=wp.date===today(),isDone=wp.status==='done',isPast=wp.date<today()&&!isDone;
     var card=mk('div','wdc'+(isDone?' done-wk':'')+(isToday?' active-wk':''));
-    var head=mk('div','wdh');
-    var left=mk('div','wdl');
-    left.appendChild(mkT('div','wdn',day.short));
+    var head=mk('div','wdh'),left=mk('div','wdl');
+    left.appendChild(mkT('div','wdn',wo.short||wo.name));
     left.appendChild(mkT('div','wdd',fmtDate(wp.date)+(isToday?' · Today':'')));
-    left.appendChild(mkT('div','wde',day.exercises.length+' exercises'));
+    left.appendChild(mkT('div','wde',wo.slots.length+' exercises'));
     head.appendChild(left);
-    var right=mk('div');right.style.display='flex';right.style.alignItems='center';
-    right.appendChild(mkT('span','wdbadge '+day.bc,day.badge));
+    var right=mk('div');right.style.cssText='display:flex;align-items:center;';
+    right.appendChild(mkT('span','wdbadge '+(wo.badgeClass||''),wo.badge||''));
     var dot=mk('div','sdot '+(isDone?'dot-done':isToday?'dot-today':'dot-up'));
     right.appendChild(dot);head.appendChild(right);card.appendChild(head);
     if(isDone&&wp.sessionId){
@@ -407,7 +433,7 @@ function renderWeek(){
       if(sess)card.appendChild(mkT('div','wdsum','✓ Done · '+sess.duration+' min'+(sess.rpe?' · RPE '+sess.rpe:'')));
     } else {
       var btn=mk('button','wdbtn');
-      btn.textContent=isToday?'▶  Start workout':isPast?'Start anyway':'Preview exercises';
+      btn.textContent=isToday?'▶  Start workout':isPast?'Start anyway':'Preview';
       btn.setAttribute('data-a','start-day');btn.setAttribute('data-v',idx);
       card.appendChild(btn);
     }
@@ -415,20 +441,21 @@ function renderWeek(){
   });
   var sbar=mk('div','syncbar');
   sbar.appendChild(mkT('span','synclbl',cfg.lastSync?'Synced '+fmtDate(cfg.lastSync):'Not synced yet'));
-  var spb=mk('button','syncbtn');spb.textContent='↓ Pull from GitHub';spb.setAttribute('data-a','sync-pull');
+  var spb=mk('button','syncbtn');spb.textContent='↓ Sync from GitHub';spb.setAttribute('data-a','sync-pull');
   sbar.appendChild(spb);sc.appendChild(sbar);
-  var setbtn=mk('button','syncbtn');setbtn.textContent='⚙ Settings';setbtn.setAttribute('data-a','settings');
-  setbtn.style.cssText='display:block;width:100%;text-align:center;padding:8px;';
-  sc.appendChild(setbtn);
+  var sb=mk('button','syncbtn');sb.textContent='⚙ Settings';sb.setAttribute('data-a','settings');
+  sb.style.cssText='display:block;width:100%;text-align:center;padding:8px;';sc.appendChild(sb);
 }
 
-// ── WORKOUT SCREEN ──
+// ─── WORKOUT SCREEN ──────────────────────────────────────────────
 function startWorkout(weekDayIdx){
-  var wp=weekPlan.days[weekDayIdx],day=DAYS[wp.dayIdx];
-  activeSession={weekDayIdx:weekDayIdx,dayIdx:wp.dayIdx,exIdx:0,finished:false,rpe:null,
-    startTime:Date.now(),restTimer:null,restSecs:0,completedEx:new Set(),sets:{}};
-  day.exercises.forEach(function(ex,i){
-    var rows=[];for(var s=0;s<Math.max(ex.sets,1);s++)rows.push({load:'',reps:'',done:false});
+  var wp=weekPlan.days[weekDayIdx];
+  var exercises=resolveExercises(wp.woIdx);
+  activeSession={weekDayIdx:weekDayIdx,woIdx:wp.woIdx,exIdx:0,finished:false,rpe:null,
+    startTime:Date.now(),restTimer:null,restSecs:0,completedEx:new Set(),
+    sets:{},exercises:exercises};
+  exercises.forEach(function(ex,i){
+    var rows=[];for(var s=0;s<Math.max(ex.sets||1,1);s++)rows.push({load:'',reps:'',done:false});
     activeSession.sets[i]=rows;
   });
   switchTab('workout');
@@ -437,15 +464,17 @@ function startWorkout(weekDayIdx){
 function renderWorkout(){
   var sc=document.getElementById('sc-workout');sc.innerHTML='';
   if(!activeSession){sc.appendChild(mkT('div','empty','Tap a day on the Week tab to start a workout.'));return;}
-  var day=DAYS[activeSession.dayIdx];
-  if(activeSession.finished){renderComplete(sc,day);return;}
+  var wos=getWorkouts(),wo=wos[activeSession.woIdx]||{name:'Workout',short:'Workout',badge:'',badgeClass:''};
+  var exercises=activeSession.exercises;
+  if(activeSession.finished){renderComplete(sc,wo,exercises);return;}
   var dh=mk('div','dh'),dl=mk('div');
-  dl.appendChild(mkT('div','dt',day.short));
-  dl.appendChild(mkT('div','ds',activeSession.completedEx.size+'/'+day.exercises.length+' done'));
-  dh.appendChild(dl);dh.appendChild(mkT('span','db '+day.bc,day.badge));sc.appendChild(dh);
-  var nx=day.exercises[activeSession.exIdx+1];
+  dl.appendChild(mkT('div','dt',wo.short||wo.name));
+  dl.appendChild(mkT('div','ds',activeSession.completedEx.size+'/'+exercises.length+' done'));
+  dh.appendChild(dl);dh.appendChild(mkT('span','db '+(wo.badgeClass||''),wo.badge||''));
+  sc.appendChild(dh);
+  var nx=exercises[activeSession.exIdx+1];
   if(nx){var nb=mk('div','nub');nb.innerHTML='&#8594; Up next: <strong>'+nx.name+'</strong>';sc.appendChild(nb);}
-  day.exercises.forEach(function(ex,i){sc.appendChild(buildExCard(ex,i));});
+  exercises.forEach(function(ex,i){sc.appendChild(buildExCard(ex,i));});
   var sp=mk('div');sp.style.height='20px';sc.appendChild(sp);
   setTimeout(function(){var cards=sc.querySelectorAll('.ec');if(cards[activeSession.exIdx])cards[activeSession.exIdx].scrollIntoView({behavior:'smooth',block:'start'});},80);
 }
@@ -453,18 +482,20 @@ function renderWorkout(){
 function buildExCard(ex,i){
   var isDone=activeSession.completedEx.has(i),isCur=i===activeSession.exIdx;
   var card=mk('div','ec'+(isDone?' dc':'')+(ex.isNew?' nc':''));
-  var head=mk('div','ech');head.appendChild(mkT('div','ei',ex.emoji));
+  var head=mk('div','ech');head.appendChild(mkT('div','ei',ex.emoji||'💪'));
   var info=mk('div','einfo');
   info.appendChild(mkT('div','en',(isDone?'✓ ':'')+ex.name));
   info.appendChild(mkT('div','em',(ex.sets===1?ex.reps:ex.sets+' sets × '+ex.reps)+' · '+ex.load));
-  var tg=mk('div','etags');tg.appendChild(mkT('span','etag',ex.pattern));
+  var tg=mk('div','etags');
+  tg.appendChild(mkT('span','etag',ex.pattern));
+  if(ex.slotLabel&&ex.slotLabel!==ex.name)tg.appendChild(mkT('span','etag',ex.slotLabel));
   if(ex.isNew)tg.appendChild(mkT('span','etag newtag','new'));
   info.appendChild(tg);head.appendChild(info);card.appendChild(head);
   if(isCur||isDone){
-    card.appendChild(mkT('div','edesc',ex.desc));
-    var mc=mk('div','emuscles');mc.innerHTML='Muscles: <span>'+ex.muscles+'</span>';card.appendChild(mc);
+    card.appendChild(mkT('div','edesc',ex.desc||''));
+    if(ex.muscles){var mc=mk('div','emuscles');mc.innerHTML='Muscles: <span>'+ex.muscles+'</span>';card.appendChild(mc);}
     if(ex.tip)card.appendChild(mkT('div','etip',ex.tip));
-    if(ex.sets>1){
+    if((ex.sets||1)>1){
       var st=mk('div','settrack');st.appendChild(mkT('div','setlbl','Track your sets'));
       var srs=mk('div','setrows');
       (activeSession.sets[i]||[]).forEach(function(s,si){
@@ -498,13 +529,13 @@ function buildExCard(ex,i){
   return card;
 }
 
-function renderComplete(sc,day){
+function renderComplete(sc,wo,exercises){
   var dur=Math.round((Date.now()-activeSession.startTime)/60000);
   var ban=mk('div','cbanner');
   ban.appendChild(mkT('h2','','✓ Workout done'));
-  ban.appendChild(mkT('p','',day.short+' · '+dur+' min · '+activeSession.completedEx.size+'/'+day.exercises.length+' exercises'));
+  ban.appendChild(mkT('p','',(wo.short||wo.name)+' · '+dur+' min · '+activeSession.completedEx.size+'/'+exercises.length));
   sc.appendChild(ban);
-  var rw=mk('div','card');var ri=mk('div','rpe-row');ri.appendChild(mkT('span','rpe-lbl','RPE'));
+  var rw=mk('div','ec'),ri=mk('div','rpe-row');ri.appendChild(mkT('span','rpe-lbl','RPE'));
   var rbs=mk('div','rpe-btns');
   for(var r=1;r<=10;r++){
     var rb=mk('button','rpeb'+(activeSession.rpe===r?' on':''));
@@ -518,8 +549,7 @@ function renderComplete(sc,day){
 
 function markExDone(i){
   activeSession.completedEx.add(i);
-  var day=DAYS[activeSession.dayIdx];
-  if(i<day.exercises.length-1){activeSession.exIdx=i+1;startRest(90);}
+  if(i<activeSession.exercises.length-1){activeSession.exIdx=i+1;startRest(90);}
   else activeSession.finished=true;
   renderWorkout();
 }
@@ -536,60 +566,53 @@ function startRest(secs){
 function stopRest(){if(activeSession.restTimer)clearInterval(activeSession.restTimer);activeSession.restTimer=null;renderWorkout();}
 
 function saveSession(weekDayIdx){
-  var day=DAYS[activeSession.dayIdx];
+  var wos=getWorkouts(),wo=wos[activeSession.woIdx]||{name:'Workout'};
   var dur=Math.round((Date.now()-activeSession.startTime)/60000);
   var sid=Date.now();
-  var exercises=day.exercises.map(function(ex,i){
-    return{id:ex.id,name:ex.name,completed:activeSession.completedEx.has(i),
+  var exercises=activeSession.exercises.map(function(ex,i){
+    return{id:ex.id,name:ex.name,pattern:ex.pattern,completed:activeSession.completedEx.has(i),
       sets:(activeSession.sets[i]||[]).filter(function(s){return s.load||s.reps;})};
   });
-  var entry={id:sid,date:today(),dayIdx:activeSession.dayIdx,dayName:day.name,
-    block:cfg.block||1,duration:dur,rpe:activeSession.rpe,exercises:exercises};
-  workoutLog.unshift(entry);saveLog();
+  workoutLog.unshift({id:sid,date:today(),woIdx:activeSession.woIdx,woName:wo.name,
+    duration:dur,rpe:activeSession.rpe,exercises:exercises});
+  saveLog();
   weekPlan.days[weekDayIdx].status='done';weekPlan.days[weekDayIdx].sessionId=sid;saveWeek();
   if(activeSession.restTimer)clearInterval(activeSession.restTimer);
   activeSession=null;
   var sc=document.getElementById('sc-workout');sc.innerHTML='';
-  sc.appendChild(mkT('div','empty','Saving to GitHub...'));
-  ghSaveLog(function(err){
+  sc.appendChild(mkT('div','loading-bar','Saving to GitHub...'));
+  ghPut(DATA_FILE,workoutLog,function(err){
     if(err){
-      var eb=mkT('div','errbr','GitHub save failed (saved locally). Will retry next session.\n'+err.message);
-      sc.appendChild(eb);
-      setTimeout(function(){switchTab('week');},3000);
-    } else {
-      cfg.lastSync=today();saveCfg();switchTab('week');
-    }
+      var eb=mkT('div','errbr','GitHub save failed (saved locally).\n'+err.message);
+      sc.appendChild(eb);setTimeout(function(){switchTab('week');},3000);
+    } else {cfg.lastSync=today();saveCfg();switchTab('week');}
   });
 }
 
-// ── HISTORY SCREEN ──
+// ─── HISTORY ─────────────────────────────────────────────────────
 function renderHistory(){
   var sc=document.getElementById('sc-history');sc.innerHTML='';
   if(!workoutLog.length){sc.appendChild(mkT('div','empty','No sessions yet. Complete a workout to see history.'));return;}
   sc.appendChild(mkT('div','sectitle',workoutLog.length+' sessions logged'));
   workoutLog.forEach(function(sess){
     var card=mk('div','hcard');
-    var head=mk('div','hcard-head');
-    var left=mk('div');
+    var head=mk('div','hcard-head'),left=mk('div');
     left.appendChild(mkT('div','hcard-date',fmtDate(sess.date)));
-    left.appendChild(mkT('div','hcard-day',sess.dayName+' · Block '+(sess.block||1)));
+    left.appendChild(mkT('div','hcard-day',(sess.woName||'Workout')));
     var meta=mk('div','hcard-meta');
     if(sess.duration)meta.appendChild(mkT('span','','⏱ '+sess.duration+' min'));
     if(sess.rpe)meta.appendChild(mkT('span','hcard-rpe','RPE '+sess.rpe));
     var comp=(sess.exercises||[]).filter(function(e){return e.completed;}).length;
     meta.appendChild(mkT('span','','✓ '+comp+'/'+(sess.exercises||[]).length));
     left.appendChild(meta);head.appendChild(left);
-    var tog=mk('button','htog');tog.textContent='Details';
-    tog.setAttribute('data-a','htog');tog.setAttribute('data-id',sess.id);
+    var tog=mk('button','htog');tog.textContent='Details';tog.setAttribute('data-a','htog');tog.setAttribute('data-id',sess.id);
     head.appendChild(tog);card.appendChild(head);
     var body=mk('div','hcard-body');body.id='hex-'+sess.id;body.style.display='none';
     (sess.exercises||[]).forEach(function(ex){
       if(!ex.completed&&!(ex.sets&&ex.sets.length))return;
       var row=mk('div','hex-row');row.appendChild(mkT('div','hex-name',ex.name));
       if(ex.sets&&ex.sets.length){
-        var str=ex.sets.map(function(s,i){
-          return'Set '+(i+1)+': '+(s.load?s.load+'lb':'')+((s.load&&s.reps)?'×':'')+(s.reps||'');
-        }).join(' · ');
+        var str=ex.sets.map(function(s,i){return'Set '+(i+1)+': '+(s.load?s.load+'lb':'')+((s.load&&s.reps)?'×':'')+(s.reps||'');}).join(' · ');
         row.appendChild(mkT('div','hex-sets',str));
       }
       body.appendChild(row);
@@ -599,66 +622,98 @@ function renderHistory(){
 }
 function toggleHex(el){
   var id=el.getAttribute('data-id'),body=document.getElementById('hex-'+id);
-  if(!body)return;
-  var open=body.style.display!=='none';
+  if(!body)return;var open=body.style.display!=='none';
   body.style.display=open?'none':'block';el.textContent=open?'Details':'Hide';
 }
 
-// ── QUEUE SCREEN ──
+// ─── QUEUE ───────────────────────────────────────────────────────
 function renderQueue(){
   var sc=document.getElementById('sc-queue');sc.innerHTML='';
-  var btog=mk('div','btog');
-  [1,2].forEach(function(n){
-    var btn=mk('button','blkb'+((cfg.block||1)===n?' on':''));
-    btn.textContent=n===1?'Block 1 — Jun/Jul':'Block 2 — Aug/Sep';
-    btn.setAttribute('data-a','blk');btn.setAttribute('data-v',n);btog.appendChild(btn);
-  });
-  sc.appendChild(btog);
+  var wos=getWorkouts(),ni=getNextWoIdx();
   sc.appendChild(mkT('div','sectitle','Upcoming rotation'));
-  var ni=getNextDayIdx();
-  var cols=['background:#e8f0fe;color:#1a73e8','background:#e6f4ea;color:#1e8e3e','background:#fef3e2;color:#e37400'];
+  var cols=['background:#e8f0fe;color:#1a73e8','background:#e6f4ea;color:#1e8e3e','background:#fef3e2;color:#e37400','background:#ede9fe;color:#7c3aed'];
   [0,1,2,3,4].forEach(function(i){
-    var idx=(ni+i)%3,day=DAYS[idx];
+    var idx=(ni+i)%wos.length,wo=wos[idx];
+    var exercises=resolveExercises(idx);
     var qc=mk('div','qcard');
-    var qn=mk('div','qnum');qn.style.cssText=cols[idx]+';width:28px;height:28px;border-radius:50%;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;';
+    var qn=mk('div','qnum');qn.style.cssText=cols[idx%cols.length]+';width:28px;height:28px;border-radius:50%;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;';
     qn.textContent=''+(i+1);
     var qi=mk('div','qinfo');
-    qi.appendChild(mkT('div','qname',(i===0?'▶ ':'')+day.short));
-    qi.appendChild(mkT('div','qsub',day.exercises.length+' exercises · '+day.badge));
+    qi.appendChild(mkT('div','qname',(i===0?'▶ ':'')+(wo.short||wo.name)));
+    qi.appendChild(mkT('div','qsub',exercises.map(function(e){return e.name;}).join(', ')));
     qc.appendChild(qn);qc.appendChild(qi);sc.appendChild(qc);
   });
 }
 
-// ── SYNC ──
+// ─── SYNC ────────────────────────────────────────────────────────
 function pullFromGitHub(){
   if(!isConfigured()){alert('Set up GitHub in Settings first.');return;}
-  ghLoadLog(function(err,data){
-    if(err){alert('GitHub error: '+(err.message||err)+'\n\nCheck: username, repo name, PAT has "repo" scope.');return;}
-    var remoteIds=new Set(data.map(function(e){return e.id;}));
-    var localOnly=workoutLog.filter(function(e){return!remoteIds.has(e.id);});
-    workoutLog=data.concat(localOnly).sort(function(a,b){return b.id-a.id;});
-    saveLog();cfg.lastSync=today();saveCfg();
-    renderWeek();
-    alert('Synced. '+workoutLog.length+' sessions total.'+(data.length===0?'\n(No sessions in GitHub yet — expected on first use.)':''));
+  var sc=document.getElementById('sc-week');sc.innerHTML='';
+  sc.appendChild(mkT('div','loading-bar','Syncing from GitHub...'));
+  loadProgramFromGitHub(function(err){
+    cfg.lastSync=today();saveCfg();
+    checkWeekReset();renderWeek();
+    if(err)alert('Sync warning: '+err.message+'\nSome files may not have updated.');
   });
 }
 function exportJSON(){
   var blob=new Blob([JSON.stringify(workoutLog,null,2)],{type:'application/json'});
-  var url=URL.createObjectURL(blob);
-  var a=document.createElement('a');a.href=url;a.download='workout-log.json';a.click();
-  URL.revokeObjectURL(url);
+  var url=URL.createObjectURL(blob);var a=document.createElement('a');
+  a.href=url;a.download='workout-log.json';a.click();URL.revokeObjectURL(url);
 }
 
-// ── DOM HELPERS ──
+// ─── DOM HELPERS ─────────────────────────────────────────────────
 function mk(tag,cls){var el=document.createElement(tag);if(cls)el.className=cls;return el;}
 function mkT(tag,cls,txt){var el=mk(tag,cls);el.textContent=txt;return el;}
 
-// ── WAKE LOCK ──
+// ─── WAKE LOCK ───────────────────────────────────────────────────
 function requestWakeLock(){try{if('wakeLock'in navigator)navigator.wakeLock.request('screen').catch(function(){});}catch(e){}}
 requestWakeLock();
 document.addEventListener('visibilitychange',function(){if(document.visibilityState==='visible')requestWakeLock();});
 
-// ── INIT ──
+// ─── FALLBACK DATA (used when GitHub is unreachable) ─────────────
+var FALLBACK_EXERCISES=[
+  {id:'mobility-1',pattern:'mobility',name:'Movement Prep',sets:1,reps:'10 min',load:'—',emoji:'🔄',muscles:'Hip flexors, T-spine, Shoulders',desc:'Hip flexor stretch 60s each side, thoracic spine rotations on foam roller, shoulder CARs.'},
+  {id:'hip-hinge-1',pattern:'hip-hinge',name:'Trap Bar Deadlift',sets:4,reps:'4–5',load:'~240 lbs, +10/wk',emoji:'🏋️',muscles:'Glutes, Hamstrings, Quads / Erectors, Traps',desc:'Stand center of trap bar. Hinge at hips, neutral spine, chest up. Drive through the floor. Lock out hips at top.',tip:'Week 1: 240 · Week 2: 250 · Week 3: 260 · Week 4: 270'},
+  {id:'hip-hinge-2',pattern:'hip-hinge',name:'Romanian Deadlift',sets:4,reps:'5–6',load:'Moderate barbell',emoji:'🏋️',muscles:'Hamstrings, Glutes / Erectors, Traps',desc:'Hinge to just below the knee — feel the hamstring stretch. Drive hips forward to lockout.'},
+  {id:'hip-hinge-3',pattern:'hip-hinge',name:'Single-Leg RDL',sets:3,reps:'8 each side',load:'Light DB',emoji:'🦵',muscles:'Hamstrings, Glutes / Balance',desc:'Stand on one leg, hinge forward flat back, free leg extends behind.'},
+  {id:'squat-1',pattern:'squat',name:'Goblet Squat',sets:3,reps:'6–8',load:'Moderate KB',emoji:'🔔',muscles:'Quads, Glutes / Core',desc:'KB at chest, elbows inside knees. Sit back and down. Drive knees out.'},
+  {id:'squat-2',pattern:'squat',name:'Heel-Elevated Goblet Squat',sets:3,reps:'6–8',load:'Moderate KB',emoji:'🔔',muscles:'Quads, Glutes / Core',desc:'1–2 inch plates under heels. More quad emphasis, better depth.'},
+  {id:'squat-3',pattern:'squat',name:'Safety Bar Squat',sets:3,reps:'6–8',load:'Moderate barbell',emoji:'🏋️',muscles:'Quads, Glutes / Core, Erectors',desc:'Safety bar for more upright torso. Easier on shoulders.'},
+  {id:'horizontal-pull-1',pattern:'horizontal-pull',name:'Chest-Supported DB Row',sets:3,reps:'8–10',load:'Moderate DB',emoji:'🏋️',muscles:'Mid traps, Rhomboids, Lats',desc:'Incline bench ~45°. Row both DBs to hips, lead with elbows.'},
+  {id:'horizontal-pull-2',pattern:'horizontal-pull',name:'Barbell Row (Pendlay)',sets:3,reps:'6–8',load:'Moderate barbell',emoji:'🏋️',muscles:'Lats, Mid traps, Rhomboids',desc:'Bar on floor each rep. Hinge to near-horizontal. Pull to lower chest.'},
+  {id:'horizontal-pull-3',pattern:'horizontal-pull',name:'TRX Row',sets:3,reps:'12',load:'Body angle',emoji:'🏋️',muscles:'Mid traps, Rhomboids, Rear delts',desc:'Lean back, straight body. Pull chest to hands.'},
+  {id:'vertical-pull-1',pattern:'vertical-pull',name:'Eccentric Pull-Up',sets:3,reps:'5–6 slow negatives',load:'Bodyweight',emoji:'🏋️',muscles:'Lats, Teres major / Biceps',desc:'Jump to top, lower under control for 4–6 seconds to dead hang.',tip:'Goal: bodyweight pull-up. Grip strength = top longevity predictor.',isNew:true},
+  {id:'vertical-pull-2',pattern:'vertical-pull',name:'Cable Pulldown (Neutral Grip)',sets:3,reps:'10–12',load:'Moderate stack',emoji:'🏋️',muscles:'Lats, Teres major / Biceps',desc:'Neutral grip V-bar. Pull to upper chest, lead elbows down and back.'},
+  {id:'horizontal-push-1',pattern:'horizontal-push',name:'Landmine Press',sets:3,reps:'10–12 each',load:'Moderate plate',emoji:'💪',muscles:'Anterior delt, Upper chest / Triceps',desc:'Press from shoulder height at ~45°. Neutral grip — key shoulder-safe variation.'},
+  {id:'horizontal-push-2',pattern:'horizontal-push',name:'Incline DB Press',sets:3,reps:'10–12',load:'Moderate DB',emoji:'💪',muscles:'Upper chest, Anterior delt / Triceps',desc:'Bench 30–45°. Elbows at ~45° from torso. Full range.'},
+  {id:'horizontal-push-3',pattern:'horizontal-push',name:'Dumbbell Z-Press',sets:3,reps:'8–10',load:'Light–Moderate DB',emoji:'💪',muscles:'Anterior delt, Triceps / Core',desc:'Sit on floor, legs straight. Press DBs overhead. Floor eliminates leg drive.'},
+  {id:'unilateral-1',pattern:'unilateral',name:'Bulgarian Split Squat',sets:3,reps:'10 each side',load:'Bodyweight to DB',emoji:'🦵',muscles:'Quads, Glutes / Hamstrings',desc:'Rear foot on bench. Lower until front thigh parallel. ACL-safe.'},
+  {id:'unilateral-2',pattern:'unilateral',name:'Reverse Lunge',sets:3,reps:'8–10 each side',load:'DB or KB',emoji:'🦵',muscles:'Glutes, Quads / Hamstrings',desc:'Step back. Rear knee drops to just above floor. ACL-safer than forward lunge.'},
+  {id:'unilateral-3',pattern:'unilateral',name:'Step-Up',sets:3,reps:'10 each side',load:'Bodyweight to DB',emoji:'🪜',muscles:'Glutes, Quads / Hamstrings',desc:'Box ~16". Drive through heel. Don\'t push off back foot.'},
+  {id:'loaded-carry-1',pattern:'loaded-carry',name:'Farmer Carry',sets:3,reps:'35 meters',load:'~50 lbs/hand',emoji:'💼',muscles:'Grip, Traps, Core / Glutes',desc:'Two KBs, stand tall, walk controlled line.'},
+  {id:'loaded-carry-2',pattern:'loaded-carry',name:'Suitcase Carry',sets:3,reps:'35 meters each side',load:'~50–60 lbs KB',emoji:'💼',muscles:'Obliques, Grip, Traps / Core',desc:'Single KB, resist leaning away from load. Lateral core anti-flexion.'},
+  {id:'anti-rotation-1',pattern:'anti-rotation',name:'Half-Kneeling Pallof Press',sets:3,reps:'8–10 each side',load:'Light cable',emoji:'🎯',muscles:'Obliques, Deep core / Glutes',desc:'Half-kneeling perpendicular to cable. Press out, hold 2s, resist rotation.',isNew:true},
+  {id:'anti-rotation-2',pattern:'anti-rotation',name:'Pallof Press (Standing)',sets:3,reps:'10 each side',load:'Light–Moderate cable',emoji:'🎯',muscles:'Obliques, Transverse abdominis',desc:'Stand perpendicular to cable. Press out, hold 2s, return. Resist rotation throughout.'},
+  {id:'rotator-cuff-1',pattern:'rotator-cuff',name:'Face Pull / Band Pull-Apart Superset',sets:3,reps:'15–20 each',load:'Light cable / band',emoji:'🎯',muscles:'Rear delts, External rotators / Mid traps',desc:'Face pull to forehead with external rotation. Immediately: band pull-apart. Never skip.'},
+  {id:'rotator-cuff-2',pattern:'rotator-cuff',name:'Half-Kneeling Face Pull',sets:3,reps:'12–15',load:'Light cable',emoji:'🎯',muscles:'Rear delts, External rotators / Mid traps',desc:'Half-kneeling facing cable. Pull rope to face with external rotation, elbows high.',isNew:true},
+  {id:'hip-hinge-power-1',pattern:'hip-hinge-power',name:'KB Swing',sets:5,reps:'10',load:'35–53 lbs KB',emoji:'🏋️',muscles:'Glutes, Hamstrings / Core, Lats',desc:'Hip hinge — not a squat. Drive hips forward explosively. Stand on both feet.'},
+  {id:'hip-hinge-power-2',pattern:'hip-hinge-power',name:'One-Arm KB Clean',sets:4,reps:'10–12 each side',load:'Moderate KB',emoji:'🏋️',muscles:'Glutes, Traps, Forearm / Core',desc:'Drive hips — punch KB up to rack position. Power from hip drive, not arm.'},
+  {id:'metabolic-1',pattern:'metabolic',name:'Sled Push',sets:4,reps:'20 meters',load:'Moderate — start light',emoji:'🛷',muscles:'Quads, Glutes, Calves / Core',desc:'Lean ~45°, short powerful steps. No eccentric load — best recovery cost-benefit.'},
+  {id:'conditioning-1',pattern:'conditioning',name:'Rowing Ergometer — Steady',sets:1,reps:'10 min',load:'Easy to moderate',emoji:'🚣',muscles:'Lats, Rhomboids, Hamstrings / Quads, Core',desc:'22–26 strokes/min. Zero foot impact.'},
+  {id:'conditioning-2',pattern:'conditioning',name:'Rowing Ergometer — Intervals',sets:3,reps:'4 min on / 2 off',load:'Zone 2',emoji:'🚣',muscles:'Full body',desc:'Zone 2: ~65–75% max HR. Three intervals beats one long cruise for VAT reduction.'}
+];
+
+var FALLBACK_WORKOUTS=[
+  {id:'d1',name:'Day 1 — Heavy Strength',short:'Heavy Strength',badge:'Strength',badgeClass:'bs',
+   slots:[{pattern:'mobility'},{pattern:'hip-hinge'},{pattern:'squat'},{pattern:'horizontal-pull'},{pattern:'unilateral'},{pattern:'conditioning'}]},
+  {id:'d2',name:'Day 2 — Hypertrophy',short:'Hypertrophy',badge:'Hypertrophy',badgeClass:'bh',
+   slots:[{pattern:'mobility'},{pattern:'horizontal-push'},{pattern:'unilateral'},{pattern:'vertical-pull'},{pattern:'horizontal-push'},{pattern:'rotator-cuff'},{pattern:'anti-rotation'},{pattern:'loaded-carry'},{pattern:'conditioning'}]},
+  {id:'d3',name:'Day 3 — Power/Metabolic',short:'Power & Metabolic',badge:'Metabolic',badgeClass:'bm',
+   slots:[{pattern:'mobility'},{pattern:'hip-hinge-power'},{pattern:'metabolic'},{pattern:'unilateral'},{pattern:'horizontal-pull'},{pattern:'conditioning'}]}
+];
+
+// ─── INIT ────────────────────────────────────────────────────────
 if(!isConfigured()){
   renderSetup(false);
   document.querySelectorAll('.sc').forEach(function(s){s.classList.remove('on');});
